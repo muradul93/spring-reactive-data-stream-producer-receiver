@@ -49,6 +49,13 @@ mvn spring-boot:run
 
 ## API Endpoints
 
+
+### Student reactive-data-stream-producer Controller
+
+- **Start producer Data Steam **: `GET /api/v1/students`
+  - Triggers the process of producing student data a reactive steam.
+
+
 ### Student Receiver Controller
 
 - **Start Receiving Students**: `GET /api/v1/students/start-receiving`
